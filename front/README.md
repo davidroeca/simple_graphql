@@ -1,5 +1,3 @@
 ## Front-end
 
-To do.
-
-Using graphiql for the time being prior to implementing.
+Starting with `create-react-app` to skip build config

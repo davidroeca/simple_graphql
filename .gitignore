@@ -1,11 +1,2 @@
-# Flask
-instance/
-!instance/README.md
-
-# Python
-venv/
-__pycache__/
-*.pyc
-
 # Vim
 *.swp
