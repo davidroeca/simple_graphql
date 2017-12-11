@@ -8,6 +8,6 @@ api_v1.add_url_rule(
     view_func=GraphQLView.as_view(
         'graphql',
         schema=schema,
-        graphiql=True,
+        # graphiql=True,
     )
 )

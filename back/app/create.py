@@ -1,5 +1,6 @@
 from typing import Dict, Any
 from flask import Flask
+from flask_cors import CORS
 from .models.base import Base
 from .models import db
 from .routes import api_v1
@@ -36,4 +37,5 @@ def create_app(config: Dict[str, Any]):
         db.session.add(yo)
         db.session.add(sandy)
         db.session.commit()
+    CORS(app)
     return app
